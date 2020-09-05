@@ -11,10 +11,11 @@ import Comments from '../Comments/Comments';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    marginTop: 10,
+    marginTop: 20,
+    padding:10,
   },
   postTitle: {
-    fontSize: 20,
+    fontSize: 24,
     color: '#2E4053',
   },
 });

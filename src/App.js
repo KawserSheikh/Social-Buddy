@@ -4,14 +4,15 @@ import Home from './components/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PostDetail from './components/PostDetail/PostDetail';
 import NotFound from './components/NotFound/NotFound';
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import Header from './components/Header/Header';
+
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Container maxWidth='lg'>
+      <Container maxWidth="md">
         <Router>
           <Switch>
             <Route path='/postDetail/:id'>

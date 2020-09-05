@@ -10,10 +10,11 @@ import { red } from '@material-ui/core/colors';
 const useStyles = makeStyles((theme) => ({
   root: {
     minWidth: 275,
-    marginTop: 10,
+    marginTop: 20,
+    padding: 10,
   },
   avatar: {
-    backgroundColor: red[500],
+    backgroundColor: red[50],
   },
 }));
 
