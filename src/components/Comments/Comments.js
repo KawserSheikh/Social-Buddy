@@ -19,6 +19,7 @@ const Comments = (props) => {
       {comments.map((comment) => (
         <SingleComment comment={comment} key={comment.id}></SingleComment>
       ))}
+
     </div>
   );
 };

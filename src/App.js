@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Container maxWidth='sm'>
+      <Container maxWidth='lg'>
         <Router>
           <Switch>
             <Route path='/postDetail/:id'>
